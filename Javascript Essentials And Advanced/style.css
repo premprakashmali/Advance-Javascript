@@ -1,0 +1,45 @@
+body{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    background-color: rgb(25, 25, 50);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 80px;
+    border-radius: 20px;
+}
+#todoInput{
+    height: 40px;
+    width: 330px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.tittle{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#addTodoBtn{
+    background-color:coral;
+    color: black;
+    height: 50px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#todoList{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width:390px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}

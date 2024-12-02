@@ -1,0 +1,120 @@
+body{
+
+    background-color: rgb(215, 220, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-1 {
+
+    margin-left: 50px;
+}
+
+.flex-1 input {
+
+    margin-left: 79px;
+    width: 450px;
+    height: 30px;
+    
+}
+
+.flex-2 input {
+
+    margin-left: 81px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.flex-3 input {
+
+    margin-left: 120px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.flex-4 input {
+
+    margin-left: 111px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.flex-6 input {
+
+    margin-left: 77px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+.flex-7 textarea {
+
+    margin-left: 163px;
+    width: 450px;
+    height: 60px;
+    margin-top: 5px;
+
+}
+
+.flex-8 input {
+
+    margin-left: 132px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.flex-9 input {
+
+    margin-left: 103px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.flex-10 input {
+
+    margin-left: 126px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.flex-11 select {
+
+    margin-left: 75px;
+    margin-top: 5px;
+    
+}
+
+.flex-12 input {
+
+    margin-left: 170px;
+    margin-top: 10px;
+    
+}
+
+.flex-13 input {
+
+    margin-left: 95px;
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+   
+}
+
+.flex-14 button{
+    background-color: rgb(35, 205, 35);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    
+}

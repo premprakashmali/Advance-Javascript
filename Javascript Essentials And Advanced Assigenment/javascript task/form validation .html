@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+    
+
+    <form method="post" onsubmit="return reg_form(this)">
+        <div class="card-1">
+            <h1 id="msg-1"></h1>
+            <div class="flex-1">
+                <label>First name:-</label>
+                <input type="text" placeholder="Enter your first name" name="Username" id="uname">
+            </div>
+            <div class="flex-2">
+                <label>Last name:-</label>
+                <input type="text" placeholder="Enter your last name" name="Last name" id="lname">
+            </div>
+            <div class="flex-13">
+                <label>Password <span style="color:red"></span></label>
+                <input type="password" placeholder="Enter Password" name="pass" id="pass">
+            </div>
+            <div class="flex-3">
+                <label>Email</label>
+                <input type="email" placeholder="it should contain @" name="em" id="email">
+            </div>
+            <div class="flex-4">
+                <label>Mobile</label>
+                <input type="text" placeholder="only 10 digit are allowed" name="number" id="num">
+            </div>
+            <div class="flex-5">
+                <label>Gender</label>
+                <input type="radio" name="gender" value="m" style="margin-left: 110px;" id="four-2">male
+                <input type="radio" name="gender" value="f">female
+            </div>
+            <div class="flex-6">
+                <label>Date of birth</label>
+                <input type="date" placeholder="Date of birth" name="dob" id="dob">
+            </div>
+            <div class="flex-7">
+                <label>Address</label><br>
+                <textarea name="addres" id="address"></textarea>
+            </div>
+            <div class="flex-8">
+                <label>City</label>
+                <select name="country" class="form-control" id="country"
+                    style="width: 460px;height: 30px; margin-left: 130px;">
+                    <option value="">-Select Country-</option>
+                    <option value="India">India</option>
+                    <option value="Usa">Usa</option>
+                    <option value="India">Japan</option>
+                    <option value="Usa">Rasia</option>
+                </select>
+            </div>
+            <div class="flex-9">
+                <label>Area pin</label>
+                <input type="text" name="arapin" placeholder=" " id="Ariapin">
+            </div>
+            <br>
+            <div class="flex-14">
+                <button type="submit" id="submit">Register</button>
+            </div>
+        </div>
+        </div>  
+
+    </form>
+    <script src="form.js">
+
+
+    </script>
+</body>
+
+</html>
